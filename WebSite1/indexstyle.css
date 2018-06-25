@@ -1,0 +1,28 @@
+﻿.container{
+    width:100%;
+    display:grid;
+    background-color:deeppink;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto;
+}
+.content1{
+    grid-row:2 /span 1;
+    background-image:url("images/pattern.jpg");
+    height:40vh;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+
+}
+.content1 > img{
+    height:40vh;
+    width:40vh;
+    margin-left:20vw;
+}
+    .content1 > h1 {
+        font-family: 'Patrick Hand SC', cursive;
+        background-color: rgba(64, 154, 145, 0.55);
+        color: greenyellow;
+        font-size:2vw;
+        padding:1vh;        
+    }

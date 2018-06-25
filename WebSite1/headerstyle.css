@@ -1,0 +1,42 @@
+﻿.header {
+
+    height: 15vh;
+    background-color: white;
+
+    grid-row:1 /span 1;
+
+
+}
+    .header > ul {
+        flex-direction: row;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        color: black;
+    }
+        .header > ul > li > img {
+            height: 10vh;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left:  5vw;
+        }
+
+        .header > ul > li > a {
+            margin-left: 2vw;
+            margin-top: 0;
+            text-decoration: none;
+            color: black;
+            font-family: sans-serif;
+            letter-spacing: .1vw;
+            padding: 1vw;
+            font-size:1vw;
+            
+        }
+    .header > ul > li > a:hover {
+        background-color:black;
+        color:whitesmoke;
+     
+    }
